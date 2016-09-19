@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    
+}
+td {
+font-size: 20px;
+text-align: center;
+font-weight: bold;
+background: url("http://img0.mxstatic.com/wallpapers/302fb970395acff3a0d3c1343c76acb5_large.jpeg");
+width: 350px;
+color: black;
+}
+img {
+    height: 120px;
+    width: 100%;
+}
+table {
+width: 100%;
+margin: 0;
+}
+@keyframes articlerotatif                             /ANIMATION VIBRANTE BOUTON/
+{     10%
+{        transform: translateX(3px);    }20%     {        transform: translateY(3px);    }40%     {        transform: translateX(3px);    }60%     {        transform: translateY(3px);    }80%     {        transform: translateX(3px);    }100%     {        transform: translateY(3px);    }
+}
+@-webkit-keyframes articlerotatif
+{    10%     {        transform: translateX(3px);    }20%     {        transform: translateY(3px);    }40%     {        transform: translateX(3px);    }60%     {        transform: translateY(3px);    }80%     {        transform: translateX(3px);    }100%     {        transform: translateY(3px);    }
+}
+.lien:hover
+{    animation: articlerotatif 500ms;    -webkit-animation: articlerotatif 500ms;
+}
